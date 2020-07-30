@@ -1,0 +1,19 @@
+:root{
+
+	/*Font*/
+	--font-regular:'LatoRegular';
+	--font-thin:'LatoThin';
+	--font-light:'LatoLight';
+	--font-bold:'LatoBold';
+	--font-black:'LatoBlack';
+
+	/*Color*/
+	--brand-color:#575a88;
+	--text-color:#333333;
+	--bg-color:white;
+	
+
+	/*Size*/
+	--text-size:18px;
+	--line-height: 1.5em;
+};

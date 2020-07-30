@@ -1,0 +1,149 @@
+.skills{
+	/*background: green;*/
+	padding-top:80px; 
+
+}
+
+.skills h1{
+	padding-bottom: 70px;
+}
+
+ .skills .skill-text h3{
+ 	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	color: var(--text-color);
+	position: absolute;
+
+	
+}
+
+.skills .skill-text h3:last-child{
+	/*position: absolute;*/
+	left: 78%;
+
+}
+
+
+.skill-bar{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.skills .outer{
+	width: 470px;
+	height: 8px;
+	background: #bac5f4;
+	border-radius: 10px; 
+	margin: 40px 0;
+
+}
+
+.skills .outer .inner1{
+	width: 97%;
+	height: 8px;
+	border-radius: 10px;
+	background: #d19bfd;
+}
+
+.skills .outer .inner2{
+	width: 90%;
+	height: 8px;
+	border-radius: 10px;
+	background: #d19bfd;
+}
+
+.skills .outer .inner3{
+	width: 80%;
+	height: 8px;
+	border-radius: 10px;
+	background: #d19bfd;
+}
+
+.skills .outer .inner4{
+	width: 75%;
+	height: 8px;
+	border-radius: 10px;
+	background: #8ad7ff;
+}
+.skills .outer .inner5{
+	width: 85%;
+	height: 8px;
+	border-radius: 10px;
+	background: #8ad7ff;
+}
+.skills .outer .inner6{
+	width: 90%;
+	height: 8px;
+	border-radius: 10px;
+	background: #8ad7ff;
+}
+
+/*Mobile First*/
+@media screen and (max-width: 576px){
+	.skill-bar{
+		margin-left: 20px;
+	}
+	.skills .outer{
+	width: 400px;
+	height: 6px;
+	/*background: #bac5f4;
+	border-radius: 10px; 
+	margin: 40px 0;*/
+
+}
+	.skills .outer .inner{
+		height: 6px;
+	}
+
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+	.skill-bar{
+		margin-left: 20px;
+	}
+	.skills .outer{
+	width: 400px;
+	height: 6px;
+	/*background: #bac5f4;
+	border-radius: 10px; 
+	margin: 40px 0;*/
+
+	}
+	.skills .outer .inner{
+		height: 6px;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+	
+	.skills .outer{
+	width: 330px;
+	height: 6px;
+	/*background: #bac5f4;
+	border-radius: 10px; 
+	margin: 40px 0;*/
+
+}
+	.skills .outer .inner{
+		height: 6px;
+	}
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+.skills .outer{
+	width: 400px;
+	height: 6px;
+	/*background: #bac5f4;
+	border-radius: 10px; 
+	margin: 40px 0;*/
+
+}
+	.skills .outer .inner{
+		height: 6px;
+	}
+
+}

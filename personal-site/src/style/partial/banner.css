@@ -1,0 +1,112 @@
+.banner{
+	/*background: black;*/
+	height: 750px;
+	padding-top: 160px;
+}
+
+.banner .banner-text{
+	margin-top: 155px;
+}
+.banner .banner-text h1{
+	color: var(--brand-color);
+	font-family: var(--font-regular);
+	font-size: 45px;
+	text-transform: uppercase;
+}
+
+.banner .banner-text p{
+	color: var(--brand-color);
+	font-size: 20px;
+	font-family: var(--font-light);
+
+}
+
+.banner .banner-img {
+	width: 100%;
+}
+
+/*Mobile First*/
+@media screen and (max-width: 576px){
+	.banner .banner-img img{
+		height: 450px;
+		margin-left:50px;
+	}
+	.banner .banner-text{
+		margin-top: -20px;
+
+		text-align: center;
+
+	}
+
+	.banner .banner-text h1{
+		font-size: 30px;
+
+	}
+}
+@media screen and (min-width: 577px) and (max-width: 768px){
+
+	.banner .banner-img img{
+		height: 510px;
+	}
+
+	.banner .banner-text{
+		margin-top: -20px;
+
+		text-align: center;
+
+	}
+
+	.banner .banner-text h1{
+		font-size: 30px;
+
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+
+.banner .banner-img img{
+		height: 370px;
+		margin-top: -100px;
+	}
+
+	.banner .banner-text{
+		margin-top: 2px;
+		
+		text-align: center;
+
+	}
+
+	.banner .banner-text h1{
+		font-size: 25px;
+
+	}
+	.banner .banner-text p{
+		font-size: 17px;
+
+
+	}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+	.banner .banner-img img{
+		height: 450px;
+		margin-top: -100px;
+	}
+
+	.banner .banner-text{
+		margin-top: 20px;
+		
+		text-align: center;
+
+	}
+
+	.banner .banner-text h1{
+		font-size: 30px;
+
+	}
+	.banner .banner-text p{
+		font-size: 18px;
+
+
+	}
+}

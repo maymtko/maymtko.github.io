@@ -1,0 +1,146 @@
+.blog{
+	/*background: grey;*/
+	padding-top: 80px;
+}
+.blog h1{
+	padding-bottom: 70px;
+}
+.blog .blog-img img{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 180px;
+	height: 160px;
+	margin: 15px 80px;
+}
+
+.blog .blog-text{
+	margin:10px 0;
+	font-size: 20px;
+	text-align: justify;
+
+}
+.blog-text .blog-btn{
+	width: 100px;
+	height: 35px;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	background: var(--brand-color);
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+	margin-left: 590px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+
+}
+.blog-text .blog-btn:hover{
+	background: #3b3e6a;
+
+}
+
+.blog .allbtn{
+	width: 120px;
+	height: 40px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 15px;
+	background:var(--brand-color);
+	border: none;
+	outline: none;
+	text-align: center;
+	margin: 0 468px;
+	margin-top: 30px;
+}
+.blog .allbtn:hover{
+	background: #3b3e6a;
+}
+/*Mobile first*/
+
+@media screen and (max-width: 576px){
+	.blog .blog-img img{
+		margin: 15px 145px;
+	}
+	.blog .blog2{
+		margin-top: 20px;
+	}
+	.blog .blog-text{
+	margin:10px 0;
+	padding: 0 40px;
+	font-size: 18px;
+	text-align: justify;
+
+	}
+	.blog .allbtn{
+		margin: 20px 360px;
+	}
+	.blog-text .blog-btn{
+		margin: 20px 0 20px 160px;
+	}
+
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+	.blog .blog-img img{
+		margin: 15px 145px;
+	}
+	.blog .blog2{
+		margin-top: 20px;
+	}
+	.blog .blog-text{
+	margin:10px 0;
+	padding: 0 30px;
+	font-size: 18px;
+	text-align: justify;
+
+	}
+	.blog .allbtn{
+		margin: 20px 360px;
+	}
+	.blog-text .blog-btn{
+		margin: 20px 0 20px 160px;
+	}
+
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+	.blog .blog-img img{
+		margin: 15px 15px;
+	}
+	.blog .blog-text{
+	margin:10px 0;
+	padding: 0 20px;
+	font-size: 16px;
+	}
+	.blog-text .blog-btn{
+		margin:20px 0 20px 300px;
+
+	}
+	.blog .allbtn{
+		margin: 20px 260px;
+	}
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+	.blog .blog-img img{
+		margin: 15px 50px;
+	}
+
+	.blog .blog-text{
+	margin:10px 0;
+	padding: 0 20px;
+	font-size: 18px;
+	
+
+	}
+	.blog-text .blog-btn{
+		margin-left: 450px;
+		
+
+	}
+	.blog .allbtn{
+		margin: 30px 400px;
+	}
+}
+
+
