@@ -50,7 +50,7 @@
 	border: none;
 	outline: none;
 	text-align: center;
-	margin: 0 468px;
+	margin-left:468px;
 	margin-top: 30px;
 }
 .blog .allbtn:hover{
@@ -73,7 +73,7 @@
 
 	}
 	.blog .allbtn{
-		margin: 20px 360px;
+		margin: 20px 0px 20px 360px;
 	}
 	.blog-text .blog-btn{
 		margin: 20px 0 20px 160px;
@@ -97,7 +97,7 @@
 
 	}
 	.blog .allbtn{
-		margin: 20px 360px;
+		margin: 20px 0 20px 360px;
 	}
 	.blog-text .blog-btn{
 		margin: 20px 0 20px 160px;
@@ -118,7 +118,7 @@
 
 	}
 	.blog .allbtn{
-		margin: 20px 260px;
+		margin:20px 0 20px 300px;
 	}
 }
 @media screen and (min-width: 993px) and (max-width: 1200px) {
