@@ -23,13 +23,15 @@
 
 .banner .banner-img {
 	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 /*Mobile First*/
 @media screen and (max-width: 576px){
 	.banner .banner-img img{
-		height: 450px;
-		margin-left:50px;
+		height: 400px;
+		margin-left:70px;
 	}
 	.banner .banner-text{
 		margin-top: -20px;
@@ -46,7 +48,9 @@
 @media screen and (min-width: 577px) and (max-width: 768px){
 
 	.banner .banner-img img{
-		height: 510px;
+		width:80%;
+		height: 400px;
+		margin-left:50px;
 	}
 
 	.banner .banner-text{
@@ -65,7 +69,7 @@
 @media screen and (min-width: 769px) and (max-width: 992px){
 
 .banner .banner-img img{
-		height: 370px;
+		height: 350px;
 		margin-top: -100px;
 	}
 
