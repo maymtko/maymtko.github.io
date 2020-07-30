@@ -107,7 +107,7 @@ nav ul.navi-bar li a:hover{
 
 nav ul.navi-bar.nav-active{
 	opacity: 1;
-		transform: translateX(0%);
+	transform: translateX(0%);
 	}
 
 
