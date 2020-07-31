@@ -1,6 +1,6 @@
 /*Navigation Bar*/
 .logo{
-	padding: 0 80px 0 80px;
+	padding: 0 80px 0 0px;
 }
 .logo a{
 	color: var(--brand-color);
