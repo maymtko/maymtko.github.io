@@ -144,14 +144,18 @@
 }
 /* For smaller devices */
 /*For Smller devices*/
-@media screen and (min-width:412px) and (max-width: 495px) {
+@media screen and (min-width:412px) and (max-width: 496px) {
 	.blog .blog-img img{
 		margin: 15px 100px;
 	}
 
-	.blog .allbtn{
-		margin: 30px 0 30px 175px;
+	.blog-text .blog-btn{
+		margin-left: 120px;
+	
 	}
 
+	.blog .allbtn{
+		margin: 30px 0 30px 135px;
+	}
 
 }
