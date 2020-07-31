@@ -126,3 +126,16 @@
 	margin-left: 394px;
 	}
 }
+/*For Smaller Devices*/
+@media screen and (min-width:412px) and (max-width: 495px) {
+	.footer .footer-1{
+		padding-left: 140px;
+	}
+	.footer .footer-2{
+		padding-left: 130px;
+		margin-left: 0px;
+	}
+	.footer .social-icons {
+	margin-left: 135px;
+	}
+}
