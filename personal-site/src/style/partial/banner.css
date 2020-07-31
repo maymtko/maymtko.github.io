@@ -192,8 +192,19 @@
 	.banner .banner-img img{
 		height: 400px;
 		margin-left:0;
-		padding-left: 70px;
+		padding-left: 20px;
 	}
+	.banner .banner-text{
+		margin:80px 20px;
+		padding: 0 10px;
+
+	}
+
+	.banner .banner-text p{
+		font-size: 18px;
+		text-align: justify;
+	}
+
 
 
 }
