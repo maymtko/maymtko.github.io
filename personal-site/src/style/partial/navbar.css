@@ -152,10 +152,10 @@ nav ul.navi-bar.nav-active{
 		position: absolute;
 		
 		background: var(--brand-color);
-		top: 12%;
+		top: 10%;
 		left:0%;
 		width: 100%;
-		height: 60%;
+		height: 50%;
 /* 		padding-bottom: 18px;  */
 		z-index: 1;
 		display: flex;
