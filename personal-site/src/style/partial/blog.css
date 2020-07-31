@@ -142,5 +142,12 @@
 		margin: 30px 400px;
 	}
 }
+/* For smaller devices */
+@media screen and (max-width: 495px) {
+.blog .allbtn{
+		margin: 30px 175px;
+	}
 
+
+}
 
