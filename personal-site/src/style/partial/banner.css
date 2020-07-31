@@ -114,3 +114,13 @@
 
 	}
 }
+/*For Smaller Devices*/
+@media screen and (min-width:412px) and (max-width: 495px) {
+
+.banner .banner-img img{
+		height: 400px;
+		margin-left:0;
+		padding-left: 20px;
+	}
+
+}
