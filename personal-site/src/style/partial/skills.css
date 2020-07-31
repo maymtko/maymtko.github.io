@@ -147,3 +147,24 @@
 	}
 
 }
+/*For Smaller Devices*/
+@media screen and (min-width:412px) and (max-width: 495px) {
+	.skill-bar{
+		margin-left: 0;
+		padding-left: 40px;
+	}
+
+	.skills .outer{
+	width: 320px;
+	height: 6px;
+	/*background: #bac5f4;
+	border-radius: 10px; 
+	margin: 40px 0;*/
+
+	}
+	.skills .outer .inner{
+		height: 6px;
+	}
+
+
+}
