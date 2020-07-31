@@ -115,7 +115,7 @@
 	}
 }
 /*For Smaller Devices*/
-@media screen and (min-width:412px) and (max-width: 495px) {
+@media screen and (min-width:412px) and (max-width: 496px) {
 
 .banner .banner-img img{
 		height: 400px;
