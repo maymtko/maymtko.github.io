@@ -83,14 +83,14 @@
 /*Mobile First*/
 @media screen and (max-width: 576px){
 	.skill-bar{
-		margin-left: 20px;
+		margin-left: 0px;
+		padding-right: 0;
+		padding-left: 60px;
+
 	}
 	.skills .outer{
 	width: 400px;
 	height: 6px;
-	/*background: #bac5f4;
-	border-radius: 10px; 
-	margin: 40px 0;*/
 
 }
 	.skills .outer .inner{
@@ -147,8 +147,9 @@
 	}
 
 }
+
 /*For Smaller Devices*/
-@media screen and (min-width:412px) and (max-width: 496px) {
+@media screen and (min-width:412px) and (max-width: 495px) {
 	.skill-bar{
 		margin-left: 0;
 		padding-left: 40px;
@@ -157,11 +158,9 @@
 	.skills .outer{
 	width: 320px;
 	height: 6px;
-	/*background: #bac5f4;
-	border-radius: 10px; 
-	margin: 40px 0;*/
 
-	}
+
+}
 	.skills .outer .inner{
 		height: 6px;
 	}
