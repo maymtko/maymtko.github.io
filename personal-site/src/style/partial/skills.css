@@ -148,7 +148,7 @@
 
 }
 /*For Smaller Devices*/
-@media screen and (min-width:412px) and (max-width: 495px) {
+@media screen and (min-width:412px) and (max-width: 496px) {
 	.skill-bar{
 		margin-left: 0;
 		padding-left: 40px;
