@@ -63,19 +63,7 @@ nav ul.navi-bar li a:hover{
 }
 
 
-/* Desktop First */
-
-/* 0 - 1200 */
-@media (max-width: 1200px) {}
-/* 0 - 921 */
-@media (max-width: 921px) {}
-/* 0 - 768 */
-@media (max-width: 768px) {}
-/* 0 - 576 */
-@media (max-width: 576px) {}
-
-/* 0 - 921 */
-/* 769 - 921 */
+/* 0-921 */
 @media (max-width: 921px){
 	nav ul.navi-bar li a{
 		font-size: 16px;
